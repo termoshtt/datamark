@@ -1,2 +1,5 @@
-# datamark
-semantic data manager
+WIP
+
+DataMark
+=========
+Semantic Data Manager
