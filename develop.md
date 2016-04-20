@@ -11,6 +11,10 @@ Concept
   - assemblies of Data and Assembly
   - with properties
 
+Backend
+--------
+![Use Case](./flow.mmd.png)
+
 Implementations (TODOs)
 ------------------------
 
