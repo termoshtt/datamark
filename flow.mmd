@@ -1,0 +1,12 @@
+sequenceDiagram
+  loop One Request
+    WebApp/CLI ->> API Server : Request
+    opt need data
+      Redis ->> API Server : load data
+    end
+    opt change data
+      API Server ->> Redis : save data
+    end
+    API Server ->> WebApp/CLI : Response
+  end
+  WatchDog --x Redis : Update data
